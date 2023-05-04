@@ -10,7 +10,7 @@ function TaskList({tasks,category}) {
       {/* display a list of tasks using Task component */}
    <Task 
         text={tasks.text}
-        category={category.category}
+        category={ category.category}
    />
 
     </div>
